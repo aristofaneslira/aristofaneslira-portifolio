@@ -5,6 +5,7 @@ import {
   DiNodejsSmall,
   DiMysql,
   DiReact,
+  DiSass
 } from "react-icons/di";
 
 import "../styles/components/technologiescontainer.sass";
@@ -16,6 +17,7 @@ const technologies = [
   { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
   { id: "mysql", name: "MySQL", icon: <DiMysql /> },
   { id: "react", name: "React", icon: <DiReact /> },
+  { id: "sass", name: "Sass", icon: <DiSass /> }
 ];
 
 const TechnologiesContainer = () => {
@@ -28,7 +30,6 @@ const TechnologiesContainer = () => {
             {tech.icon}
             <div className="technology-info">
               <h3>{tech.name}</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
           </div>
         ))}
