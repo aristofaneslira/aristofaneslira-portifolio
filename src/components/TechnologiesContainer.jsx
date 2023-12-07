@@ -9,7 +9,8 @@ import {
   DiAngularSimple,
   DiGithubBadge,
   DiJava,
-  DiPython
+  DiPython,
+  DiTrello
 } from "react-icons/di";
 
 import "../styles/components/technologiescontainer.sass";
@@ -25,7 +26,8 @@ const technologies = [
   { id: "angular", name: "Angular", icon: <DiAngularSimple /> },
   { id: "git", name: "Github", icon: <DiGithubBadge /> },
   { id: "java", name: "Java", icon: <DiJava /> },
-  { id: "python", name: "Python", icon: <DiPython /> }
+  { id: "python", name: "Python", icon: <DiPython /> },
+  { id: "trello", name: "Trello", icon: <DiTrello /> }
 ];
 
 const TechnologiesContainer = () => {
